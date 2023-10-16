@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
 // import ReactDOM  from 'react';
 // import Resturant from './component/basics/Resturant'
@@ -7,7 +9,9 @@ const App = () => {
   const lname = "Nishad"
    const currDate = new Date().toLocaleDateString();
    const currTime = new Date().toLocaleTimeString();
+     const img = "https://picsum.photos/200/300";
   
+     const img2 = "https://picsum.photos/201/300";
   return (
   //  <Resturant>
 
@@ -29,6 +33,12 @@ const App = () => {
     <li> MoneyHeist</li>
     <li> End game</li>
   </ol>
+
+  <h1 contentEditable="true"> My name is {Name1}</h1>
+   <img src={img} alt="Random Image" /> 
+   <a href='https://chat.openai.com/c/8594fb36-5447-4925-bda4-b760e89c7c09' target='_blank'>
+   <img src={img2} alt='randomIamges'/>
+   </a>
   </>
   )
 }
