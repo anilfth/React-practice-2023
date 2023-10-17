@@ -4,6 +4,10 @@
 import React from 'react'
 import './index.css'
 import Card from './Card';
+import Sdata from './Sdata';
+// import importExport from './importExport';
+//  import Calcal from './Calcal';
+
 //  import Heading from './Heading.jsx';
 // import Para from './Para';
 // import List from './List';
@@ -13,29 +17,43 @@ import Card from './Card';
 
 
 const App = () => {
+  
   // const Name1 = "Anil";
   // const lname = "Nishad"
   //  const currDate = new Date().toLocaleDateString();
   //  const currTime = new Date().toLocaleTimeString();
-  //    const img = "https://picsum.photos/200/300";
+  //    const img = "https://picsum.photos/211/311";
   
-  //    const img2 = "https://picsum.photos/201/300";
+  //    const img2 = "https://picsum.photos/211/311";
   return (
+   
     
   //  <Resturant>
 
   //  </Resturant>
   <>
+{/* <Calcal/> */}
+{/* <importExport/> */}
+
+<Sdata/>
+
   {/* <Heading /> */}
   {/* <Para /> */}
   {/* <List /> */}
-<Card imgsrc='https://wallpapercave.com/wp/wp4056410.jpg'
+{/* <Card imgsrc='https://wallpapercave.com/wp/wp4156411.jpg'
  title='A Netflix original Series' sname='DARK'
-link='https://www.netflix.com/in/title/80100172' />
+link='https://www.netflix.com/in/title/81111172' />  */}
 
-<Card imgsrc='https://wallpapercave.com/wp/wp4056410.jpg'
+{/* <Card imgsrc='https://wallpapercave.com/wp/wp4156411.jpg'
  title='A Netflix original Series' sname='DARK'
-link='https://www.netflix.com/in/title/80100172' />
+link='https://www.netflix.com/in/title/81111172' /> */}
+
+{/* <Card 
+imgsrc = {Sdata[1].imgsrc}
+ title = {Sdata[1].title}
+ sname = {Sdata[1].sname}
+ link = {Sdata[1].link} 
+ /> */}
 
   </>
   )
@@ -59,7 +77,7 @@ link='https://www.netflix.com/in/title/80100172' />
   <h1 className='heading'> My name is {Name1}</h1>
   <div className='img_div'> 
    <img   src={img} alt="Random Image" /> 
-   <a href='https://chat.openai.com/c/8594fb36-5447-4925-bda4-b760e89c7c09' target='_blank'>
+   <a href='https://chat.openai.com/c/8594fb36-5447-4925-bda4-b761e89c7c19' target='_blank'>
    <img src={img2} alt='randomIamges'/>
    </a>
    </div> */
