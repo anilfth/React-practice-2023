@@ -3,12 +3,14 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
 import './index.css'
- import Heading from './Heading.jsx';
-import Para from './Para';
-import List from './List';
+import Card from './Card';
+//  import Heading from './Heading.jsx';
+// import Para from './Para';
+// import List from './List';
 
 // import ReactDOM  from 'react';
 // import Resturant from './component/basics/Resturant'
+
 
 const App = () => {
   // const Name1 = "Anil";
@@ -24,9 +26,17 @@ const App = () => {
 
   //  </Resturant>
   <>
-  <Heading />
-  <Para />
-  <List />
+  {/* <Heading /> */}
+  {/* <Para /> */}
+  {/* <List /> */}
+<Card imgsrc='https://wallpapercave.com/wp/wp4056410.jpg'
+ title='A Netflix original Series' sname='DARK'
+link='https://www.netflix.com/in/title/80100172' />
+
+<Card imgsrc='https://wallpapercave.com/wp/wp4056410.jpg'
+ title='A Netflix original Series' sname='DARK'
+link='https://www.netflix.com/in/title/80100172' />
+
   </>
   )
   /* <h1> {`My name is ${Name1} ${lname}`}</h1>
