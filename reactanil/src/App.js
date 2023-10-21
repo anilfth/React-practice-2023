@@ -4,6 +4,7 @@
 import React from 'react'
 import './index.css'
 import Slotmachine from './Slotmachine'
+import Hooksreact from './Hooksreact'
 // import Card from './Card';
 // import Sdata from './Sdata';
 // import Images from './Images';
@@ -36,7 +37,8 @@ const App = () => {
 
   //  </Resturant>
   <>
-  <Slotmachine/>
+  <Hooksreact/>
+  {/* <Slotmachine/> */}
   {/* <Images  /> */}
 {/* <Calcal/> */}
 {/* <importExport/> */}

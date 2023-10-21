@@ -37,3 +37,14 @@
  .slot_inner{
     text-align: center;
  }
+ button{
+    padding: 50px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 150px;
+    border-color: aqua;
+     display: inline;
+     margin-bottom: 50px;
+
+ }
