@@ -3,10 +3,11 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
 import './index.css'
-import Card from './Card';
-import Sdata from './Sdata';
+import Slotmachine from './Slotmachine'
+// import Card from './Card';
+// import Sdata from './Sdata';
 // import Images from './Images';
-import Condition from './Condition';
+// import Condition from './Condition';
 // import Condition from './Condition';
 // import importExport from './importExport';
 //  import Calcal from './Calcal';
@@ -35,11 +36,12 @@ const App = () => {
 
   //  </Resturant>
   <>
+  <Slotmachine/>
   {/* <Images  /> */}
 {/* <Calcal/> */}
 {/* <importExport/> */}
 
-<Sdata/>
+{/* <Sdata/> */}
 {/* <Condition/> */}
 {/* <Card/> */}
 {/* <Favs /> */}

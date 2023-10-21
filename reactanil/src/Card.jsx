@@ -1,8 +1,10 @@
 import React from 'react'
+import Sdata from './Sdata'
 
 function Card(props) {
   return (
    <>
+   <Sdata/>
    <div className='cards'>
     <div className='card'>
         <img src={props.imgsrc} alt='myphoto' className='card__img'/>
