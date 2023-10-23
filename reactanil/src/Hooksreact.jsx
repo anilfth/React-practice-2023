@@ -5,7 +5,7 @@ function Hooksreact() {
     const state = useState();
     const [count, setCount] = useState(0);
 const IncNum = () => {
-    setCount(count + 1)
+    setCount(count +1 )
     // console.log("clicked " + count++);
 };
   return (
