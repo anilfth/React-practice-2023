@@ -9,6 +9,7 @@ function Timerefreshing() {
     }
   return (
     <div>
+      <h1> This is Time Refreshing </h1>
       <h1>  {cTime}</h1>
       <button onClick={UpdateTime}> Get Time</button>
     </div>
