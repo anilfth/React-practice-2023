@@ -6,6 +6,7 @@ import './index.css'
 import Slotmachine from './Slotmachine'
 import Hooksreact from './Hooksreact'
 import Timerefreshing from './Timerefreshing'
+import Digitalclock from './Digitalclock'
 // import Card from './Card';
 // import Sdata from './Sdata';
 // import Images from './Images';
@@ -38,8 +39,9 @@ const App = () => {
 
   //  </Resturant>
   <>
-  <Timerefreshing/>
-  <Hooksreact/>
+  <Digitalclock/>
+  {/* <Timerefreshing/> */}
+  {/* <Hooksreact/> */}
   {/* <Slotmachine/> */}
   {/* <Images  /> */}
 {/* <Calcal/> */}
