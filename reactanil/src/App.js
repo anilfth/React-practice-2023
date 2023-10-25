@@ -7,6 +7,7 @@ import Slotmachine from './Slotmachine'
 import Hooksreact from './Hooksreact'
 import Timerefreshing from './Timerefreshing'
 import Digitalclock from './Digitalclock'
+import Eventhandling from './Eventhandling'
 // import Card from './Card';
 // import Sdata from './Sdata';
 // import Images from './Images';
@@ -40,6 +41,7 @@ const App = () => {
   //  </Resturant>
   <>
   <Digitalclock/>
+  <Eventhandling/>
   {/* <Timerefreshing/> */}
   {/* <Hooksreact/> */}
   {/* <Slotmachine/> */}
