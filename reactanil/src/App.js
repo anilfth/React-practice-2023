@@ -3,11 +3,11 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
 import './index.css'
-import Slotmachine from './Slotmachine'
-import Hooksreact from './Hooksreact'
-import Timerefreshing from './Timerefreshing'
-import Digitalclock from './Digitalclock'
-import Eventhandling from './Eventhandling'
+// import Slotmachine from './Slotmachine'
+// import Hooksreact from './Hooksreact'
+// import Timerefreshing from './Timerefreshing'
+// import Digitalclock from './Digitalclock'
+// import Eventhandling from './Eventhandling'
 // import Card from './Card';
 // import Sdata from './Sdata';
 // import Images from './Images';
@@ -22,6 +22,7 @@ import Eventhandling from './Eventhandling'
 
 // import ReactDOM  from 'react';
 // import Resturant from './component/basics/Resturant'
+import Formsreact from './Formsreact'
 
 
 const App = () => {
@@ -40,8 +41,9 @@ const App = () => {
 
   //  </Resturant>
   <>
-  <Digitalclock/>
-  <Eventhandling/>
+  <Formsreact/>
+  {/* <Digitalclock/> */}
+  {/* <Eventhandling/> */}
   {/* <Timerefreshing/> */}
   {/* <Hooksreact/> */}
   {/* <Slotmachine/> */}
