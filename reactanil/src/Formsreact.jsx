@@ -1,22 +1,34 @@
 import React, { useState } from 'react'
 
 function Formsreact() {
-    const[name, setname] = useState();
-    const [Fullname, setfullname] = useState()
+    const[name, setname] = useState("");
+    const [Fullname, setfullname] = useState("");
+    const [lastname, setLastname] = useState("");
+    const [lastnamenew, setLastnamenew] = useState("");
+    const onSubmits = (event) => {
+        event.preventDefault();
+              setfullname(name);
+              setLastnamenew(lastname)
+          }
     const eventInput = (event) =>{
         console.log(event.target.value);
         setname(event.target.value);
-    }
-
-    const onsubmit = () => {
-        setfullname(name);
-    }
+    };
+const eventInputTwo = (event) => {
+  console.log(event.target.value);
+  setLastname(event.target.value);
+};
+   
   return (
     <>
     <div>
-      <h1> Hello, {Fullname}</h1>
+        <form onSubmit={onSubmits}> 
+      <h1> Hello, {Fullname} {lastnamenew}</h1>
       <input type='text' placeholder='Enter a Name ' onChange={eventInput} value={name} />
-      <button onClick={onsubmit}> Click Me</button>
+      <br/>
+      <input type='text' placeholder='Enter a Lastname' onChange={eventInputTwo} value={lastname} />
+      <button type='submit'> submit me 👍</button>
+      </form>
       </div>
     </>
   )
