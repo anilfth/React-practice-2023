@@ -22,7 +22,8 @@ import './index.css'
 
 // import ReactDOM  from 'react';
 // import Resturant from './component/basics/Resturant'
-import Formsreact from './Formsreact'
+// import Formsreact from './Formsreact'
+import Complexmultipleinputform from './Complexmultipleinputform'
 
 
 const App = () => {
@@ -41,7 +42,8 @@ const App = () => {
 
   //  </Resturant>
   <>
-  <Formsreact/>
+  {/* <Formsreact/> */}
+  <Complexmultipleinputform/>
   {/* <Digitalclock/> */}
   {/* <Eventhandling/> */}
   {/* <Timerefreshing/> */}

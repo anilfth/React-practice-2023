@@ -75,7 +75,7 @@
    }
    div{
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     background: #8e44ad;
     display: flex;
     flex-direction: column;
@@ -83,21 +83,24 @@
     align-items: center;
    }
    h1{
+    /* width: 100px; */
+    text-align: center;
     color: white;
     background: transparent;
     text-shadow: 0 2px 2px black;
    }
    input{
-    width: 50%;
-    padding: 10px 20px;
-    border: none;
+    width: auto;
+    padding: 20px 20px;
+    border: 2px solid black;
     outline: none;
-    margin: 20px 0;
+    margin: 20px 100px;
     text-align: center;
    }
    button{
+    margin: 10px 100px;
     line-height: 24px;
-    padding: 0 20px;
+    padding: 10px 20px;
     background: #9b599b;
     color: white;
     border: 2px solid #ecf0f1;
