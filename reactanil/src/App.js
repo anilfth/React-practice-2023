@@ -23,11 +23,11 @@ import './index.css'
 // import ReactDOM  from 'react';
 // import Resturant from './component/basics/Resturant'
 // import Formsreact from './Formsreact'
-import Complexmultipleinputform from './Complexmultipleinputform'
+// import Complexmultipleinputform from './Complexmultipleinputform'
+import Spreadoperator from './Spreadoperator'
 
 
 const App = () => {
-  
   // const Name1 = "Anil";
   // const lname = "Nishad"
   //  const currDate = new Date().toLocaleDateString();
@@ -42,8 +42,9 @@ const App = () => {
 
   //  </Resturant>
   <>
+<Spreadoperator/>
   {/* <Formsreact/> */}
-  <Complexmultipleinputform/>
+  {/* <Complexmultipleinputform/> */}
   {/* <Digitalclock/> */}
   {/* <Eventhandling/> */}
   {/* <Timerefreshing/> */}
