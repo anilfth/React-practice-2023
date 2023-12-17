@@ -66,14 +66,14 @@
    
   /* forms css in code  */
    
-   *{
+   /* *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     background-color: #d2dbdd;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   }
-   div{
+   } */
+   .main_div{
     width: 100%;
     height: 200vh;
     background: #8e44ad;
@@ -82,32 +82,49 @@
     justify-content: center;
     align-items: center;
    }
+   .center_div {
+    width: 25%;
+    height: 80vh;
+    background-color: #f4f4f4;
+    box-shadow: 5px 5px 25px -5px;
+    border-radius:  15px;
+   }
    h1{
     /* width: 100px; */
+    background-color: aqua;
     text-align: center;
     color: white;
-    background: transparent;
+    /* background: transparent; */
     text-shadow: 0 2px 2px black;
    }
    input{
-    width: auto;
-    padding: 20px 20px;
-    border: 2px solid black;
-    outline: none;
-    margin: 20px 100px;
-    text-align: center;
+   text-align: center;
+   height: 30px;
+   top: 10px;
+   border: none;
+   background: transparent;
+   font-size: 20px;
+   font-weight: 500;
+   width: 60%;
+   border-bottom: 2px solid #8566aa;
+   outline: none;
    }
    button{
-    margin: 10px 100px;
-    line-height: 24px;
-    padding: 10px 20px;
-    background: #9b599b;
-    color: white;
-    border: 2px solid #ecf0f1;
-    outline: none;
-    border-radius: 5px;
-    text-transform: uppercase;
-    cursor: pointer;
+min-height: 40px;
+width: 40px;
+border-radius: 50px;
+border-color: transparent;
+background-color: #8566aa;
+color: #fff;
+font-size: 40px;
+border: none;
+outline: none;
+margin-left: 10px;
+box-shadow:  5px 5px 15px -5px rgba(0,0,0,0.3);
    }
+
+     button:hover{
+        background-color: green;
+     }
 
   

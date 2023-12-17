@@ -15,6 +15,7 @@ import './index.css'
 // import Condition from './Condition';
 // import importExport from './importExport';
 //  import Calcal from './Calcal';
+// import Todolist from './Todolist'
 
 //  import Heading from './Heading.jsx';
 // import Para from './Para';
@@ -24,8 +25,12 @@ import './index.css'
 // import Resturant from './component/basics/Resturant'
 // import Formsreact from './Formsreact'
 // import Complexmultipleinputform from './Complexmultipleinputform'
-import Spreadoperator from './Spreadoperator'
-
+// import Spreadoperator from './Spreadoperator'
+// import Digitalclock2 from './Digitalclock1'
+// import Todomaterialui from './Todomaterialui'
+// import Accordion from './accordion/Accordion'
+// import MyAccordion from './accordion/MyAccordion' 
+ import ComA from './ComA'
 
 const App = () => {
   // const Name1 = "Anil";
@@ -42,7 +47,14 @@ const App = () => {
 
   //  </Resturant>
   <>
-<Spreadoperator/>
+  <ComA/>
+  {/* <Accordion/> */}
+  {/* <MyAccordion/> */}
+  {/* <Todolist/> */}
+   {/* <Digitalclock2/> */}
+   {/* <Todomaterialui /> */}
+
+{/* <Spreadoperator/> */}
   {/* <Formsreact/> */}
   {/* <Complexmultipleinputform/> */}
   {/* <Digitalclock/> */}
